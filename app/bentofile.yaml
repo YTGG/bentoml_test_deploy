@@ -1,0 +1,8 @@
+service: 'service:svc'
+python:
+  requirements_txt: "requirements.txt"
+  lock_packages: false
+models:
+  - my_model:latest
+docker:
+    dockerfile_template: "Dockerfile.template"
