@@ -3,8 +3,7 @@
 # 작동 방법
 ## Git LFS 가 필요합니다.
  - brew install git-lfs
- - git clone 위 repository
- - cd /bentoml_test_deploy
+ - git clone 한 repository 내에서  cd /bentoml_test_deploy
  - git lfs pull # lfs 로 저장된 파일 불러오기
 ## Dockfile 실행
  - docker build -t bento_test .
